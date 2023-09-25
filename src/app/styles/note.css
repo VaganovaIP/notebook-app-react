@@ -1,0 +1,63 @@
+.App{
+    margin: 0;
+    align-content: center;
+    max-width: 1200px;
+    display:flex;
+}
+.menu-list{
+    position: relative;
+    width:  400px;
+    margin: 10px;
+}
+
+.content{
+    position: relative;
+    flex: 2 400px;
+}
+
+.item{
+    margin: 0;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+.search-add{
+    flex: 1 400px;
+}
+
+.item-title{
+    width:300px;
+    justify-content: space-between;
+}
+
+button{
+    margin-left: 5%;
+    float: right;
+}
+
+
+li{
+    vertical-align: middle;
+}
+
+.input-title{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.text-edit{
+    position: relative;
+}
+
+.no-active-note input,
+textarea {
+    display: block;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+    height: calc(50vh - 130px);
+    padding: 10px;
+    resize: none;
+    font-size: inherit;
+    font-family: inherit;
+}
