@@ -15,8 +15,8 @@ function App(){
     const addNote= () => {
         const newNote = {
                     id: uuid(),
-                    title: "",
-                    body: ""
+                    title: "Новая запись",
+                    body: " "
                 }
         setNote([newNote, ...note])
         setActiveNote(newNote.id)
@@ -37,7 +37,7 @@ function App(){
 
     return(
         <main>
-            <header className="header"> Notes</header>
+            <header className="header"></header>
             <div className="App">
                 <NoteActions
                     note={note}

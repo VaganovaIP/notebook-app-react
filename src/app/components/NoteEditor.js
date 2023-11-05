@@ -10,7 +10,7 @@ function NoteEditor({activeNote, updateNote}){
         });
     };
 
-    if (!activeNote) return <div className="no-active-note">No Active Note</div>;
+    if (!activeNote) return <div className="no-active-note">Нет активной записи</div>;
     return(
         <div className="content">
             <input
